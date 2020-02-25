@@ -28,6 +28,23 @@ html {
     font-size: 4rem;
     text-align: center;
 }
+.price_plan_type {
+    display: flex;
+    justify-content: center;
+}
+.price_plan_card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px #ccc;
+    margin: 20px;
+    width: 300px;
+}
+.price_plan_name {
+    text-align: center;
+}
+.price_plan_price {
+    text-align: center;
+}
 .copyright {
     background-color: #ffc4e6;
     color: #ffffff;
