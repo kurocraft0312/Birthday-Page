@@ -1,5 +1,28 @@
 @charset "UTF-8";
 
-body {
+html {
     font-size: 62.5%;
+}
+.container {
+    text-align: center;
+}
+.hero_wrap {
+    background-size: cover;
+    background-position: center;
+    background-image: url(assets/img/hero-img.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.catchphrase {
+    color: #ffffff;
+    font-size: 8rem;
+}
+.copyright {
+    background-color: #ffc4e6;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;
 }
