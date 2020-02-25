@@ -20,6 +20,14 @@ html {
     color: #ffffff;
     font-size: 8rem;
 }
+.production-sample {
+    font-size: 4rem;
+    text-align: center;
+}
+.price_plan {
+    font-size: 4rem;
+    text-align: center;
+}
 .copyright {
     background-color: #ffc4e6;
     color: #ffffff;
