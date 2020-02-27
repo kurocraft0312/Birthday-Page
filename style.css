@@ -31,7 +31,11 @@ html {
     font-size: 8rem;
     z-index: 1;
 }
-.production-sample {
+.service_description {
+    font-size: 4rem;
+    text-align: center;    
+}
+.production_sample {
     font-size: 4rem;
     text-align: center;
 }
