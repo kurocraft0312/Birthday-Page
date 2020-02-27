@@ -43,6 +43,11 @@ html {
     font-size: 4rem;
     text-align: center;
 }
+.price_desc {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+}
 .price_plan_type {
     display: flex;
     justify-content: center;
@@ -52,17 +57,53 @@ html {
     border-radius: 8px;
     box-shadow: 0 3px 6px #ccc;
     margin: 20px;
-    width: 300px;
+    padding: 20px;
+    text-align: center;
 }
 .price_plan_name {
-    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.recommended {
+    border: 2px solid #ffc0cb;
+    margin: 8px;
+    padding: 8px;
+}
+.persona {
+    font-weight: bold;
 }
 .price_plan_price {
-    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.service-breakdown {
+    display: inline-block;
+    text-align: left;
+}
+.strikethrough {
+    text-decoration: line-through;
+}
+.cta_btn {
+    border: 0;
+    background-color: #ffc0cb;
+    color: #ffffff;
+    display: block;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 8px;
+    transition: 0.5s;
+}
+.cta_btn:hover {
+    opacity: 0.5;
 }
 .copyright {
     background-color: #ffc4e6;
     color: #ffffff;
     font-size: 2rem;
     font-weight: bold;
+}
+@media screen and (max-width:768px) {
+    .price_plan_type {
+        flex-direction: column;
+    }
 }

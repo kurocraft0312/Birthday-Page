@@ -39,7 +39,7 @@
     <link rel="apple-touch-icon" href="">
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Birthday-Page</title>
 </head>
@@ -48,9 +48,9 @@
 
     </header>
     <section class="hero_wrap">
-        <h2 class="catchphrase">ここにキャッチコピー</h2>
+        <h2 class="catchphrase animated fadeIn">ここにキャッチコピー</h2>
     </section>
-    <main>
+    <main class="container">
         <section>
             <!-- サービスの説明（誰に何を届けるのかをここに記載） -->
             <h2 class="service_description">思い出の1ページを贈ろう</h2>
@@ -62,32 +62,49 @@
         </section>
         <section>
             <h2 class="price_plan">料金プラン</h2>
+            <p class="price_desc">料金は、選べる3タイプ</p>
             <div class="price_plan_type">
-                <div class="price_plan_card">
-                    <div class="price_plan_name">そのままプラン</div>
-                    <div class="price_plan_price">5万円～</div>
-                    <ul>
-                        <li>5種類のデザインの中からお好みのデザインを選んで作成</li>
-                        <li>写真と文字の差し替えが可能</li>
+                <div class="price_plan_card animated fadeInUp">
+                    <div class="price_plan_name">ライトプラン</div>
+                    <div class="recommended">
+                        <p>こんな方におすすめ</p>
+                        <p class="persona">バースデーページを相手へ届けたい方</p>
+                    </div>
+                    <div class="price_plan_price">50,000円～</div>
+                    <ul class="service-breakdown">
+                        <li>✅選べるデザイン5種</li>
+                        <li>✅写真と文字の差し替えが可能</li>
+                        <li class="strikethrough">✅色の変更も可能</li>
                     </ul>
+                    <button class="cta_btn">無料で相談してみる</button>
                 </div>
-                <div class="price_plan_card">
-                    <div class="price_plan_name">色カスタマイズプラン</div>
-                    <div class="price_plan_price">10万円～</div>
-                    <ul>
-                        <li>5種類のデザインの中からお好みのデザインを選んで作成</li>
-                        <li>写真と文字の差し替えが可能</li>
-                        <li>色の変更も可能</li>
+                <div class="price_plan_card animated fadeInUp">
+                    <div class="price_plan_name">スタンダードプラン</div>
+                    <div class="recommended">
+                        <p>こんな方におすすめ</p>
+                        <p class="persona">好みに合わせて見映えを変えたい方</p>
+                    </div>
+                    <div class="price_plan_price">100,000円～</div>
+                    <ul class="service-breakdown">
+                        <li>✅選べるデザイン5種</li>
+                        <li>✅写真と文字の差し替えが可能</li>
+                        <li>✅色の変更も可能</li>
                     </ul>
+                    <button class="cta_btn">無料で相談してみる</button>
                 </div>
-                <div class="price_plan_card">
+                <div class="price_plan_card animated fadeInUp">
                     <div class="price_plan_name">オーダーメイドプラン</div>
-                    <div class="price_plan_price">15万円～</div>
-                    <ul>
-                        <li>フォーマットにない独自のデザインで作成</li>
-                        <li>写真と文字の差し替えが可能</li>
-                        <li>色の変更も可能</li>
+                    <div class="recommended">
+                        <p>こんな方におすすめ</p>
+                        <p class="persona">届けたい相手に長く使い続けてもらいたい方</p>
+                    </div>
+                    <div class="price_plan_price">150,000円～</div>
+                    <ul class="service-breakdown">
+                        <li>✅独自のデザイン</li>
+                        <li>✅写真と文字の差し替えが可能</li>
+                        <li>✅色の変更も可能</li>
                     </ul>
+                    <button class="cta_btn">無料で相談してみる</button>
                 </div>
             </div>
         </section>
@@ -99,6 +116,7 @@
         <address lang="en" class="copyright">© 2020 バースデーページ by Kurokawa Shun</address>
     </footer>
     <script src="assets/js/wow.min.js"></script>
+    <script>new WOW().init();</script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
