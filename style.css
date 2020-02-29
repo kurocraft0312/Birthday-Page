@@ -52,7 +52,11 @@ a {
     text-align: center;
 }
 .product {
+    transition: 0.5s;
     width: 25%;
+}
+.product:hover {
+    opacity: 0.5;
 }
 .price_plan {
     font-size: 4rem;
