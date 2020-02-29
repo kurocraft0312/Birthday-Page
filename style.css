@@ -3,6 +3,10 @@
 html {
     font-size: 62.5%;
 }
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
 .container {
     text-align: center;
 }
@@ -28,7 +32,7 @@ html {
 }
 .catchphrase {
     color: #ffffff;
-    font-size: 8rem;
+    font-size: 6rem;
     z-index: 1;
 }
 .service_description {
@@ -76,7 +80,7 @@ html {
     font-size: 1.4rem;
     font-weight: bold;
 }
-.service-breakdown {
+.service_breakdown {
     display: inline-block;
     text-align: left;
 }
@@ -96,14 +100,34 @@ html {
 .cta_btn:hover {
     opacity: 0.5;
 }
-.copyright {
+.contact_form {
+    font-size: 4rem;
+    text-align: center;    
+}
+.footer_menu {
     background-color: #ffc4e6;
     color: #ffffff;
-    font-size: 2rem;
     font-weight: bold;
+    text-align: center;
+}
+.operator_information {
+    border-bottom: 1px solid #ffffff;
+    font-size: 2rem;
+    padding: 4px 0;
+}
+.copyright {
+    font-size: 2rem;
 }
 @media screen and (max-width:768px) {
     .price_plan_type {
         flex-direction: column;
+    }
+    .copyright {
+        font-size: 1.6rem;
+    }
+}
+@media screen and (max-width:425px) {
+    .copyright {
+        font-size: 1.4rem;
     }
 }
