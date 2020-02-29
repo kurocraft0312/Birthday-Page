@@ -46,7 +46,11 @@ a {
 .production_desc {
     font-size: 1.4rem;
     font-weight: bold;
+    padding: 8px 0;
     text-align: center;
+}
+.product {
+    width: 25%;
 }
 .price_plan {
     font-size: 4rem;
@@ -55,6 +59,7 @@ a {
 .price_desc {
     font-size: 1.4rem;
     font-weight: bold;
+    padding: 8px 0;
     text-align: center;
 }
 .price_plan_type {
@@ -124,15 +129,35 @@ a {
     font-size: 2rem;
 }
 @media screen and (max-width:768px) {
+    .service_description {
+        font-size: 2rem;    
+    }
+    .production_sample {
+        font-size: 2rem;
+    }
+    .price_plan {
+        font-size: 2rem;
+    }
     .price_plan_type {
         flex-direction: column;
+    }
+    .contact_form {
+        font-size: 2rem;
     }
     .copyright {
         font-size: 1.6rem;
     }
 }
 @media screen and (max-width:425px) {
+    .catchphrase {
+        font-size: 3rem;
+    }
     .copyright {
         font-size: 1.4rem;
+    }
+}
+@media screen and (max-width:375px) {
+    .catchphrase {
+        font-size: 2.4rem;
     }
 }
