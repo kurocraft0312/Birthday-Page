@@ -58,6 +58,11 @@ a {
 .product:hover {
     opacity: 0.5;
 }
+.production_flow {
+    font-size: 4rem;
+    padding: 8px 0;
+    text-align: center;    
+}
 .price_plan {
     font-size: 4rem;
     padding: 8px 0;
@@ -146,6 +151,9 @@ a {
     }
     .production_sample {
         font-size: 2rem;
+    }
+    .production_flow {
+        font-size: 2rem; 
     }
     .price_plan {
         font-size: 2rem;
