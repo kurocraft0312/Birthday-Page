@@ -117,6 +117,10 @@ a {
 .cta_btn:hover {
     opacity: 0.5;
 }
+.note {
+    color: #fc0324;
+    font-weight: bold;
+}
 .contact_form {
     font-size: 4rem;
     padding: 8px 0;
