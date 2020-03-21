@@ -35,6 +35,13 @@ a {
     font-size: 6rem;
     z-index: 1;
 }
+.service_section,
+.production_section,
+.production_flow_section,
+.price_section,
+.contact_section {
+    margin: 32px auto;
+}
 .service_description {
     font-size: 4rem;
     padding: 8px 0;
@@ -45,6 +52,21 @@ a {
     font-weight: bold;
     padding: 8px 0;
     text-align: center;
+}
+.service_phrase {
+    margin: 16px 0;
+}
+.service_merit {
+    font-size: 4rem;
+    padding: 8px 0;
+    text-align: center;       
+}
+.service_merit_list {
+    display: flex;
+    justify-content: space-around;
+}
+.service_merit_list_title {
+    font-size: 2rem;
 }
 .production_sample {
     font-size: 4rem;
@@ -137,6 +159,11 @@ a {
     padding: 8px 0;
     text-align: center;    
 }
+.faq {
+    font-size: 4rem;
+    padding: 8px 0;
+    text-align: center;    
+}
 .footer_menu {
     background-color: #ffc4e6;
     color: #ffffff;
@@ -155,6 +182,12 @@ a {
     .service_description {
         font-size: 2rem;    
     }
+    .service_merit {
+        font-size: 2rem; 
+    }
+    .service_merit_list {
+        flex-direction: column;
+    }
     .production_sample {
         font-size: 2rem;
     }
@@ -166,6 +199,9 @@ a {
     }
     .price_plan_type {
         flex-direction: column;
+    }
+    .faq {
+        font-size: 2rem;         
     }
     .contact_form {
         font-size: 2rem;
